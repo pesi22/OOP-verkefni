@@ -1,0 +1,48 @@
+Access modifers.
+
+þú hefur það sem er kallað 'access modifers' þeir eru 3 og kallast -->
+-Public.
+-Privet.
+-Protected.
+
+-Public
+Public er default modifier.
+Public property hafa ekkert access restrictions sem þíðir að allir geta access-að þá
+NOTE: Þegar þú declare-ar property með 'var' er svo litið á að það sé public
+
+-Privet
+Þegar þú declare-ar property privet getur bara sami classi accessað propertyið
+
+-Protected
+(ég veit ekki hvernig ég á þýða þetta)
+Protected can be accessed only within the calss itslef and by inhering classes.
+-----------------------------------------------------------------------------------------
+
+Inheritance.
+
+Inheritance er hlutur í OOP sem gerir þér kleypt að nota einn classa sem grunn fyrir fleiri.
+
+Segjum að þú eigir núþegar classa sem heitir 'person' og þú villt gera annan 
+classa sem heitir 'employee'. Við getum séð að 'employee' og 'person' eiga margt saneiginlegt
+og getum þessvegna notað inheritance til að gera kóðan snyrtrilegri og betri að vinna með.
+
+Íþessu dæmi hér fyrir ofan gerir inheritance kóðan léttari vegna þess að við erum bara nota
+sama kóða í sitthvorum klassanum án þess að þurfa endurskrifan.
+
+Kóðin sem en verið að endurnota getur verið endurnotaður endaleust en er bara skrifaður á einum stað.
+-----------------------------------------------------------------------------------------
+
+Autoloading.
+
+Autoloding er leitð til að komast framúr því að setja require fyrir allt.
+Með því að hafa alla classa í sér file og passa að filenamið sé það sama
+og class nameið og í folder sem passi við namespaceið munu classar vera 
+auto required og eingin þörf fyrir að filla kóðan með require statements.
+-----------------------------------------------------------------------------------------
+
+Why OOP ?
+
+OOP hentar vel til að halda kóða snyrtilegum og að skrifa complex vef öpp auðveldari.
+OOP hentar betur þegar það kemur afþví að halda kóða við og hefur 'clearer separation of concerns'
+einnig gefur OOP þér möguleika á að endur nota kóða eins og minnst var á hér fyrir ofan, OOP er yfir
+höfuð snyrtilegra og skipulaðara en þinn meðal spagettí kóði
