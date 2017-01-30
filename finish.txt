@@ -45,4 +45,7 @@ Why OOP ?
 OOP hentar vel til að halda kóða snyrtilegum og að skrifa complex vef öpp auðveldari.
 OOP hentar betur þegar það kemur afþví að halda kóða við og hefur 'clearer separation of concerns'
 einnig gefur OOP þér möguleika á að endur nota kóða eins og minnst var á hér fyrir ofan, OOP er yfir
-höfuð snyrtilegra og skipulaðara en þinn meðal spagettí kóði
+höfuð snyrtilegra og skipulaðara en þinn meðal spagettí kóði.
+
+OOP er samt ekki 'The one true way', oft er til auðveldari lausn sem ekki Object Oriented og alltaf gott að passa
+að maður verður ekki rusty.
