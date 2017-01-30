@@ -6,9 +6,9 @@ class Animal {
 	//bý til var sem tekur við nöfnum og slki þau svo
 	var $name;	
 
-	function __construct($persons_name) {
+	function __construct($animal_type) {
 	
-		$this->name = $persons_name;
+		$this->name = $animal_type;
 	}
 	
 	
